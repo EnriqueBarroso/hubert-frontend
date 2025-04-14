@@ -31,7 +31,7 @@ function Navbar( {hideButton} ) {
         <div className="navbar-logo">
           <a oncClick={() => handleScrollOrNavigate("inicio")}>
             <img
-              src="/src/img/logo.png"
+              src="/img/logo.png"
               alt="logo del sitio"
               className="logo-img"
             ></img>
