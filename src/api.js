@@ -5,6 +5,8 @@ export const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
 });
 
+console.log("🌐 API baseURL:", import.meta.env.VITE_API_URL);
+
 // 🎭 OBRAS
 export const getObras = () => api.get('/obras');
 export const getObraById = (id) => api.get(`/obras/${id}`);
