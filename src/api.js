@@ -3,8 +3,9 @@ import axios from 'axios';
 // Base API configurada con variable de entorno de Vite
 export const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
-  imgURL: import.meta.env.VITE_UPLOADS_URL,
 });
+
+console.log("🌐 VITE_API_URL:", import.meta.env.VITE_API_URL);
 
 
 // 🎭 OBRAS
