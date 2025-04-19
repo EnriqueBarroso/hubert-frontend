@@ -843,8 +843,8 @@ body {
     font-size: 1.2rem;
   }
 }
-.repertorio .repertorio-card .sinopsis .anio,
-.repertorio .repertorio-card .sinopsis .direccion {
+.repertorio .repertorio-card .anio,
+.repertorio .repertorio-card .direccion {
   font-size: 1rem;
   margin-top: 0.5rem;
   color: #6D0505;

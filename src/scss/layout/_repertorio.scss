@@ -124,6 +124,7 @@
       @include m.tablet {
         font-size: 1.2rem;
       }
+    }
 
     .anio,
     .direccion {
@@ -132,7 +133,7 @@
       color: v.$rojoVino;
     }
       
-    }
+    
 
     .btn-info {
       margin-bottom: 1rem;
