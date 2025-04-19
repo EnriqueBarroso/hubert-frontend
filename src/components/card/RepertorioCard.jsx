@@ -5,7 +5,7 @@ export default function RepertorioCard({ titulo, sinopsis, imgURL, anio, directo
   return (
     <div className="repertorio-card">
       <ImagenObra imgURL={imgURL} alt={titulo} />
-      <h3 className="obra-titulo">{anio}</h3>
+      <h3 className="obra-titulo">{titulo}</h3>
       <p className="sinopsis">{sinopsis}</p>
       <p className="anio"><strong>Año:</strong> {anio}</p>
       {directorArtistico && <p className="direccion"><strong>Dirección artística</strong> {directorArtistico}</p>}
