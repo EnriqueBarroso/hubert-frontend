@@ -3,7 +3,7 @@ import ImagenObra from "../ImagenObra";
 
 export default function repertorioCard({ titulo, sinopsis, imgURL, anio, directorArtistico, onPerfilClick }) {
   return (
-    <div className="repertorio-card">
+    <div className="Repertorio-card">
       <ImagenObra imgURL={imgURL} alt={titulo} />
       <h3 className="obra-titulo">{titulo}</h3>
       <p className="sinopsis">{sinopsis}</p>
