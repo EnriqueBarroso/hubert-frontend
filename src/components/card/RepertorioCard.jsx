@@ -10,7 +10,7 @@ export default function RepertorioCard({ titulo, sinopsis, imgURL, anio, directo
       {anio && <p className="anio"><strong>Año:</strong> {anio}</p>}
       {directorArtistico && <p className="direccion"><strong>Dirección artística</strong> {directorArtistico}</p>}
       <button className="btn-info"  onClick={onPerfilClick}>
-        + INFO <span className="arrow">↗</span>
+        CAMBIO DE PRUBA <span className="arrow">↗</span>
       </button>
     </div>
   );
