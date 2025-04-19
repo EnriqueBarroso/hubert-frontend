@@ -57,6 +57,7 @@ export default function Repertorio() {
             {visibleObras.map((obra, index) => (
               <RepertorioCard
                 key={index}
+                titulo={obra.anio}
                 imgURL={obra.imgURL}
                 directorArtistico={obra.direccion_artistica}
                 anio={obra.anio}
