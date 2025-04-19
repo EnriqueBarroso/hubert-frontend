@@ -3,7 +3,7 @@ import "../scss/layout/_repertorio.scss";
 import Navbar from "../components/home/Navbar";
 import Footer from "../components/home/Footer";
 import ModalObra from "../components/ModalObra";
-import RepertorioCard from "../components/card/RepertorioCard";
+import RepertorioCard from "../components/card/repertorioCard";
 import { getObrasRepertorio } from "../api"; 
 
 
@@ -57,6 +57,7 @@ export default function Repertorio() {
             {visibleObras.map((obra, index) => (
               <RepertorioCard
                 key={index}
+                titulo={obra.titulo}
                 imgURL={obra.imgURL}
                 directorArtistico={obra.direccion_artistica}
                 anio={obra.anio}
