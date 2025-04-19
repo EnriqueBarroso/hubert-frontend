@@ -1,5 +1,6 @@
 import React from "react";
 import ImagenObra from "../ImagenObra";
+import "../../scss/layout/_repertorio.scss";
 
 export default function RepertorioCard({ titulo, sinopsis, imgURL, anio, directorArtistico, onPerfilClick }) {
   return (
