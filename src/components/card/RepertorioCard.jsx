@@ -7,7 +7,7 @@ export default function RepertorioCard({ titulo, sinopsis, imgURL, anio, directo
       <ImagenObra imgURL={imgURL} alt={titulo} />
       <h3 className="obra-titulo">{titulo}</h3>
       <p className="sinopsis">{sinopsis}</p>
-      {anio && <p className="anio"><strong>Año:</strong> {anio}</p>}
+      <p className="anio"><strong>Año:</strong> {anio}</p>
       {directorArtistico && <p className="direccion"><strong>Dirección artística</strong> {directorArtistico}</p>}
       <button className="btn-info"  onClick={onPerfilClick}>
         + INFO <span className="arrow">↗</span>
